@@ -1,91 +1,108 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
+  name: "Bryan Tran",
+  title: "CS Student",
+  description: "Portfolio website of Bryan Tran",
   accentColor: "#1d4ed8",
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "bryantrancontact@gmail.com",
+    linkedin: "https://www.linkedin.com/in/bryan-tran-411159251/",
+    twitter: "",
+    github: "https://github.com/bryanltran",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
-  projects: [
-    {
-      name: "AI Dev Roundup Newsletter",
-      description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
-    {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
-      description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
-    {
-      name: "ExtensionKit",
-      description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
-  ],
+    "Hi, I'm a Graduate Student From the University of Oklahoma Studying Computer Science",
+skills: [
+  "C",
+  "C++",
+  "JavaScript",
+  "SQL",
+  "Java",
+  "Python",
+  "Docker",
+  "Azure",
+  "GitHub"
+],
+projects: [
+  {
+    name: "Dispatch Quality Assurance",
+    description:
+      "Developed a machine learning-based keyword analysis system with TensorFlow in Python for the City of Norman Police Department to process and analyze 911 call recordings, reducing manual review time by automating key phrase detection.",
+    link: "https://github.com/bryanltran/dqa",
+    skills: ["Python", "TensorFlow", "Machine Learning"],
+  },
+  {
+    name: "Agent: Text Extraction Scripts",
+    description:
+      "Contributed custom scripts to the open-source text extraction engine, Agent. Used Cheat Engine to analyze memory addresses in Unity C# games, dnSpy for reverse engineering, and JavaScript automation for in-game text extraction to assist language learners.",
+    link: "https://github.com/C-G5696/scripts",
+    skills: ["C#", "JavaScript", "Reverse Engineering", "Cheat Engine", "dnSpy"],
+  },
+  {
+    name: "Spree For Free",
+    description:
+      "Engineered an interactive internet shopping platform with HTML, CSS, and JavaScript. Implemented CI/CD with GitHub Actions, reviewed pull requests, and managed schedules and communication in a collaborative environment.",
+    link: "https://github.com/bryanltran/SpreeForFree",
+    skills: ["JavaScript", "HTML", "CSS", "GitHub Actions"],
+  },
+  {
+    name: "Secure SHA256 Messaging",
+    description:
+      "Built a secure messaging application implementing SHA256 hashing with salt for encryption and HTTP for communication. Ensured data integrity and confidentiality with a user-friendly interface for seamless messaging.",
+    link: null,
+    skills: ["Java", "SHA256", "Cryptography", "Networking"],
+  },
+],
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      company: "",
+      title: "",
+      dateRange: "",
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
+        "",
+        "",
+        "",
       ],
     },
     {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
+      company: "",
+      title: "",
+      dateRange: "",
       bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
+        "",
+        "",
+        "",
       ],
     },
     {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
+      company: "",
+      title: "",
+      dateRange: "",
       bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
+        "",
+        "",
+        "",
       ],
     },
   ],
   education: [
     {
-      school: "University Name",
+      school: "University of Oklahoma",
       degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      dateRange: "2021 - 2024",
       achievements: [
         "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
+        "",
+        "",
       ],
     },
     {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
+      school: "University of Oklahoma",
+      degree: "Master of Science in Computer Science",
+      dateRange: "2025-Current",
       achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
+        "",
+        "",
+        "",
       ],
     },
   ],
